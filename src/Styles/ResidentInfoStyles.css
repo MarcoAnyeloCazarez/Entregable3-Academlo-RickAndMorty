@@ -1,0 +1,30 @@
+.cardsContainer{
+    /* border: solid black 1px; */
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.residentCard{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: rgb(83, 83, 83);
+}
+
+.residentphoto{
+    width: 100%;
+    height: 100%;
+}
+
+.infoResident{
+    padding: 0 1rem 0 1rem;
+}
+
+.infoResident h3{
+    text-align: center;
+} 
+

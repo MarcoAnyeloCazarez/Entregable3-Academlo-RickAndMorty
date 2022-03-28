@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* text-align: center; */
+  background-color: black;
+}
+
+img{
+  height: 15vw;
+  width: 100vw;
+}
+
+.title{
+  color: white;
+  font-size: 2rem ;
+  font-style: italic;
+  padding: 0 0 1rem 0;
+}
+
