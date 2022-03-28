@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import './App.css';
 import LocationInfo from './Components/LocationInfo';
-import ResidentInfo from './Components/ResidentInfo';
 import ResidentsList from './Components/ResidentsList';
 import SearchBox from './Components/SearchBox';
 

@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 import { useEffect } from 'react';
-import ResidentInfoStyles from '../Styles/ResidentInfoStyles.css'
 
 const ResidentInfo = ( { resident } ) => {
 
@@ -24,7 +23,7 @@ const ResidentInfo = ( { resident } ) => {
                     <p> <b> {residentInfo.status} </b> </p>
                     <p> origin:  </p>
                     <p> <b> {residentInfo.origin?.name} </b> </p>
-                    <p> episodes where appearr:  </p>
+                    <p> episodes where appear:  </p>
                     <p> <b> {residentInfo.episode?.length} </b> </p>
                 </section>
             </div>

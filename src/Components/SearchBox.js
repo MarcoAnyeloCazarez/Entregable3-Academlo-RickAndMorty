@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React from 'react';
 import { useState } from 'react';
-import SearchBoxStyles from '../Styles/SearchBoxStyles.css'
 
 const SearchBox = ( { setLocation, setResidents } ) => {
 

@@ -1,14 +1,6 @@
 import React from 'react';
-import LocationInfoStyles from '../Styles/LocationInfoStyles.css'
-import ResidentsList from './ResidentsList';
 
-const LocationInfo = ( { location } ) => {
-
-    // console.log(location)
-    
-    // let residentsNum = location;
-    // console.log(location.length);
-    
+const LocationInfo = ( { location } ) => {    
 
     return (
         <div className='location'>
